@@ -103,7 +103,11 @@ body {
 
 #footer > .container .row p {
   margin: 0;
-  color: #777
+  color: #777;
+}
+
+#footer > .container .row .col-xs-8 {
+  padding-top: 10px;
 }
 
 /* RESPONSIVE CSS
