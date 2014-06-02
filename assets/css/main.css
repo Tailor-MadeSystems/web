@@ -6,7 +6,7 @@ body {
   color: #5a5a5a;
 }
 
-/* C USTOMIZE THE NAVBAR
+/* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
 .navbar {
@@ -30,7 +30,6 @@ body {
 .carousel-caption {
   z-index: 10;
 }
-
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
@@ -43,6 +42,16 @@ body {
   min-width: 100%;
   height: 500px;
 }
+
+/* CUSTOMIZE THE JUMBOTRON
+-------------------------------------------------- */
+
+.jumbotron {
+  background-color: #58ACFA;
+  color: #FFF;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
