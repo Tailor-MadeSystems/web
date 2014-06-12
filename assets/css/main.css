@@ -113,7 +113,6 @@ body {
 ------------------------- */
 
 .featurette {
-  /*background-color: #FFF;*/
   padding: 80px 0;
 }
 /* Thin out the marketing headings */
@@ -150,6 +149,19 @@ body {
 }
 #footer > .container .row .col-xs-8 {
   padding-top: 10px;
+}
+
+/* CSS OVERIDES
+------------------------- */
+.dark-bg {
+  background-color: #3385AD;
+}
+.dark-bg .text-muted {
+  color: #A6DCED;
+}
+.dark-bg h2,
+.dark-bg p {
+  color: #FFF;
 }
 
 /* RESPONSIVE CSS
