@@ -74,7 +74,7 @@ body {
 .jumbotron {
  /* background-image: -webkit-linear-gradient(top, #373a3c 0, #525659 150%);
   background-image: linear-gradient(to bottom, #373a3c 0, #525659 150%);*/
-  background-image: url("../img/ITSolutionsBlue_sm.jpg");
+  background-image: url("../img/ITSolutionsBlue_sm.jpg"); 
   color: #FFF;
   margin-bottom: 0;
 }
