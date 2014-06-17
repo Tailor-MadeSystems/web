@@ -103,6 +103,7 @@ body {
 .marketing {
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: 60px;
 }
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
