@@ -1,13 +1,10 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-
 html {
   position: relative;
   min-height: 100%;
 }
-
 /* Padding below the footer and lighter body text */
-
 body {
   color: #5a5a5a;
   margin-bottom: 60px;
@@ -16,7 +13,6 @@ body {
 
 /* GLOBAL
 -------------------------------------------------- */
-
 .divider {
   margin: 80px 0;
   border-top: none;
@@ -24,7 +20,6 @@ body {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-
 .navbar {
   margin-bottom: 0px;
 }
@@ -43,7 +38,6 @@ body {
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
 /* Carousel base class */
 .carousel {
   height: 500px;
@@ -70,11 +64,11 @@ body {
 
 /* CUSTOMIZE THE JUMBOTRON
 -------------------------------------------------- */
-
 .jumbotron {
- /* background-image: -webkit-linear-gradient(top, #373a3c 0, #525659 150%);
-  background-image: linear-gradient(to bottom, #373a3c 0, #525659 150%);*/
-  background-image: url("../img/ITSolutionsBlue_sm.jpg"); 
+  /* 
+  background-image: -webkit-linear-gradient(top, #373a3c 0, #525659 150%);
+  background-image: linear-gradient(to bottom, #373a3c 0, #525659 150%);
+  */
   color: #FFF;
   margin-bottom: 0;
 }
@@ -82,23 +76,14 @@ body {
   font-size: 40px;
 }
 
-.jumbotron > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 215px;
-}
 /* CONTACT
 -------------------------------------------------- */
-
 .contact.container {
   padding: 80px 0;
 }
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-
 /* Pad the edges of the mobile views a bit */
 .marketing {
   padding-right: 15px;
@@ -120,7 +105,6 @@ body {
 
 /* FEATURETTES
 ------------------------- */
-
 .featurette {
   padding: 80px 0;
 }
@@ -136,7 +120,6 @@ body {
 
 /* FOOTER
 ------------------------- */
-
 #footer {
   position: absolute;
   bottom: 0;
@@ -156,8 +139,28 @@ body {
   margin: 0;
   color: #777;
 }
-#footer > .container .row .col-xs-8 {
+#footer > .container .row .col-xs-8,
+#footer > .container .row .col-xs-4 {
   padding-top: 10px;
+}
+
+/* HERO
+------------------------- */
+.hero {
+  padding: 0;
+}
+.hero .jumbotron-caption {
+  z-index: 10;
+}
+.hero > img {
+  position: absolute;
+  width: 100%;
+  height: 215px;
+}
+.hero .container {
+  position: relative;
+  padding: 30px;
+  height: 215px;
 }
 
 /* CSS OVERIDES
@@ -175,7 +178,6 @@ body {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
 @media (min-width: 768px) {
   /* Remove the edge padding needed for mobile */
   .marketing {
@@ -198,7 +200,6 @@ body {
     min-height: 200px;
   }
 }
-
 @media (max-width: 768px) {
   .navbar-collapse .navbar-nav {
     float: none !important;
@@ -212,7 +213,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-
+}
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
