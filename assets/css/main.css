@@ -175,6 +175,8 @@ body {
   color: #A6DCED;
 }
 .dark-bg h2,
+.dark-bg h3,
+.dark-bg h4,
 .dark-bg p {
   color: #FFF;
 }
