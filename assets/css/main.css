@@ -26,13 +26,13 @@ body {
 
 /* PANELS
 -------------------------------------------------- */
-.panel-tm-red {
-  border-color: #FC6358;
+.panel-hot-active {
+  border-color: #FF0604;
 }
-.panel-tm-red > .panel-heading {
+.panel-hot-active > .panel-heading {
   color: #FFF;
-  background-color: #FF4333;
-  border-color: #FC6358;
+  background-color: #FF3836;
+  border-color: #FF0604;
 }
 
 
@@ -126,17 +126,27 @@ body {
 
 /* FEATURETTES
 ------------------------- */
-.featurette {
+.featurette-large {
+  background-color: #FFF;
   padding: 80px 20px;
+}
+.featurette-medium {
+  background-color: #FFF;
+  padding: 60px 0;
+}
+.featurette-small {
+  background-color: #FFF;
+  padding: 40px 0;
+}
+.featurette-micro {
+  background-color: #FFF;
+  padding: 10px 0;
 }
 /* Thin out the marketing headings */
 .container .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
-}
-#mission.featurette {
-  background-color: #f7f9f9;
 }
 
 /* FOOTER
@@ -168,6 +178,7 @@ body {
 /* HERO
 ------------------------- */
 .hero {
+  margin-bottom: 20px;
   padding: 0;
 }
 .hero .jumbotron-caption {
@@ -186,16 +197,16 @@ body {
 
 /* CSS OVERIDES
 ------------------------- */
-.dark-bg {
-  background-color: #3385AD;
+.light-bg {
+  background-color: #FF3836;
 }
-.dark-bg .text-muted {
-  color: #A6DCED;
+.light-bg .text-muted {
+  color: #B21614;
 }
-.dark-bg h2,
-.dark-bg h3,
-.dark-bg h4,
-.dark-bg p {
+.light-bg h2,
+.light-bg h3,
+.light-bg h4,
+.light-bg p {
   color: #FFF;
 }
 
