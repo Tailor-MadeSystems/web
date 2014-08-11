@@ -7,8 +7,6 @@ html {
 /* Padding below the footer and lighter body text */
 body {
   color: #5a5a5a;
-  margin-bottom: 60px;
-  background-color: #f7f9f9
 }
 
 /* GLOBAL
@@ -31,7 +29,7 @@ body {
 }
 .panel-hot-active > .panel-heading {
   color: #FFF;
-  background-color: #FF3836;
+  background-color: #FF001D;
   border-color: #FF0604;
 }
 
@@ -47,11 +45,27 @@ body {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus  {
-  color: #00CCFF;
-  background-color: #FFF;
+  color: #FFF;
+  background-color: #0D5A7F;
+  border-color: #8EA8BF;
 }
-.navbar-default .navbar-brand {
-  color: #1C1C1C;
+.navbar-default .navbar-nav li a {
+  color: #8EA8BF;
+}
+.navbar-default .navbar-nav .contact-link,
+.navbar-default .navbar-nav .contact-link a,
+.navbar-default .navbar-nav .contact-link a:hover,
+.navbar-default .navbar-nav .contact-link a:focus {
+  color: #0D5A7F;
+  background-color: #8EA8BF;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+  color: #FFF;
+  font-size: 24px;
+}
+.nav-tabs li a {
+  color: #8EA8BF;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -78,29 +92,6 @@ body {
   left: 0;
   min-width: 100%;
   height: 500px;
-}
-
-/* CUSTOMIZE THE JUMBOTRON
--------------------------------------------------- */
-.jumbotron {
-  /* 
-  background-image: -webkit-linear-gradient(top, #373a3c 0, #525659 150%);
-  background-image: linear-gradient(to bottom, #373a3c 0, #525659 150%);
-  */
-  color: #FFF;
-  margin-bottom: 0;
-}
-.jumbotron h2 {
-  font-size: 40px;
-}
-
-/* CONTACT
--------------------------------------------------- */
-.contact.container {
-  padding: 80px 20px;
-}
-.contact.container address div {
-  margin-bottom: 5px;
 }
 
 /* MARKETING CONTENT
@@ -152,12 +143,9 @@ body {
 /* FOOTER
 ------------------------- */
 #footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  min-height: 60px;
+  color: #0D5A7F;
   background-color: #FFF;
+  width: 100%;
 }
 #footer > .container {
   padding-right: 15px;
@@ -168,40 +156,19 @@ body {
 }
 #footer > .container .row p {
   margin: 0;
-  color: #777;
 }
 #footer > .container .row .col-xs-8,
 #footer > .container .row .col-xs-4 {
   padding-top: 10px;
 }
 
-/* HERO
-------------------------- */
-.hero {
-  margin-bottom: 20px;
-  padding: 0;
-}
-.hero .jumbotron-caption {
-  z-index: 10;
-}
-.hero > img {
-  position: absolute;
-  width: 100%;
-  height: 150px;
-}
-.hero .container {
-  position: relative;
-  padding: 30px 0px;
-  height: 150px;
-}
-
 /* CSS OVERIDES
 ------------------------- */
 .light-bg {
-  background-color: #FF3836;
+  background-color: #FF001D;
 }
 .light-bg .text-muted {
-  color: #B21614;
+  color: #720E0D;
 }
 .light-bg h2,
 .light-bg h3,
