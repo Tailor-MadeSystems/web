@@ -29,7 +29,7 @@ body {
 }
 .panel-hot-active > .panel-heading {
   color: #FFF;
-  background-color: #FF001D;
+  background-color: #E5001A;
   border-color: #FF0604;
 }
 
@@ -164,7 +164,7 @@ body {
 /* CSS OVERIDES
 ------------------------- */
 .light-bg {
-  background-color: #FF001D;
+  background-color: #E5001A;
 }
 .light-bg .text-muted {
   color: #720E0D;
