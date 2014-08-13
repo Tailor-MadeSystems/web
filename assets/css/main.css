@@ -155,6 +155,9 @@ body {
 #footer > .container .row .col-xs-4 {
   padding-top: 10px;
 }
+.social {
+  width: 60px;
+}
 
 /* CSS OVERIDES
 ------------------------- */
@@ -164,6 +167,7 @@ body {
 .light-bg .text-muted {
   color: #720E0D;
 }
+.light-bg h1,
 .light-bg h2,
 .light-bg h3,
 .light-bg h4,
