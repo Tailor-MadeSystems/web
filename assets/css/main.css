@@ -25,12 +25,18 @@ body {
 /* PANELS
 -------------------------------------------------- */
 .panel-hot-active {
-  border-color: #FF0604;
+  border-color: #ddd;
+  color: black;
+}
+
+.panel-default > .panel-heading{
+  background-color: #990000; 
+  color: #FFF;
 }
 .panel-hot-active > .panel-heading {
-  color: #FFF;
-  background-color: #E5001A;
-  border-color: #FF0604;
+  color: white;
+  background-color: #990000;
+  border-color: #ddd;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -72,8 +78,20 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
 }
+.carousel-heading {
+  position: absolute;
+  z-index: 10;
+  color: black;
+  text-shadow: 0 0px rgba(0,0,0,.6);
+  padding: 0px 0px 0px 20px;
+}
+.carousel-heading a {
+  color: #484848;
+  text-decoration: none;
+}
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -99,6 +117,7 @@ body {
 .marketing {
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 60px;
   margin-bottom: 60px;
 }
 /* Center align the text within the three columns below the carousel */
@@ -140,6 +159,7 @@ body {
 #footer {
   color: #0C374B;
   width: 100%;
+  background-color: #F8F8F8;
 }
 #footer > .container {
   padding-right: 15px;
@@ -167,7 +187,7 @@ body {
 /* CSS OVERIDES
 ------------------------- */
 .light-bg {
-  background-color: #E5001A;
+  background-color:  #990000 ; /* #E5001A; */
 }
 .light-bg .text-muted {
   color: #720E0D;
