@@ -25,12 +25,18 @@ body {
 /* PANELS
 -------------------------------------------------- */
 .panel-hot-active {
-  border-color: #FF0604;
+  border-color: #ddd;
+  color: black;
+}
+
+.panel-default > .panel-heading{
+  background-color: #990000; 
+  color: #FFF;
 }
 .panel-hot-active > .panel-heading {
-  color: #FFF;
-  background-color: #E5001A;
-  border-color: #FF0604;
+  color: white;
+  background-color: #990000;
+  border-color: #ddd;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -45,7 +51,7 @@ body {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus  {
   color: #FFF;
-  background-color: #0C374B;
+  background-color: #660000; /*#680000; /*#0C374B;*/
   border-color: #8EA8BF;
 }
 .navbar-default .navbar-nav li a {
@@ -159,7 +165,7 @@ body {
 /* CSS OVERIDES
 ------------------------- */
 .light-bg {
-  background-color: #E5001A;
+  background-color:  #990000 ; /* #E5001A; */
 }
 .light-bg .text-muted {
   color: #720E0D;
