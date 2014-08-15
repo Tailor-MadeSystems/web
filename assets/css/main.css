@@ -156,7 +156,12 @@ body {
   padding-top: 10px;
 }
 .social {
-  width: 60px;
+  display: table;
+}
+.social a,
+.social a:hover {
+  text-decoration: none;
+  text-transform: none;
 }
 
 /* CSS OVERIDES
