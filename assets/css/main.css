@@ -70,6 +70,7 @@ h5 {
   color: #FFF;
   background-color: #0C374B;
   border-color: #FF991F;
+  border-width: 0 0 3px;
 }
 .navbar-default .navbar-nav li a {
   color: #8EA8BF;
