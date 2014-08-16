@@ -28,40 +28,19 @@
     <link href="assets/css/main.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body onload="homeNavBarLoad()">
 
-    <!-- START NAVBAR
-    ================================================== 
-
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <header class="tm-header">
       <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">Tailor Made Systems</a>
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="contact-link"><a href="#contact">Contact Us</a></li>
-          </ul>
+        <div class="tm-brand">
+          <a href="index.html">Tailor Made Systems</a>
         </div>
       </div>
-    </div>
-
-    <!-- /END NAVBAR -->
+    </header>
 
     <!-- START CAROUSEL
     ================================================== -->
-
-    <div class="carousel-heading">
-      <h3><a href="index.html">tailor made systems</a></h3>
-    </div>
+    
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -98,7 +77,10 @@
    
     <!-- /END CAROUSEL -->
 
-<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <!-- START NAVBAR
+    ==================================================  -->
+
+    <div id="tm-navbar" class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -117,6 +99,8 @@
         </div>
       </div>
     </div>
+
+    <!-- /END NAVBAR -->
 
     <!-- START MARKETING
     ================================================== -->
@@ -167,13 +151,13 @@
     <div id="footer">
       <div class="container">
         <div class="row" id="contact">
-          <h2 class="text-center">Contact Us Today</h2>
+          <h3 class="text-center">Contact Us Today</h3>
           <p class="text-center">Miami, Florida</p>
           <address class="text-center">
             <i class="fa fa-phone"></i> (305) 733 2820  |
             <i class="fa fa-envelope"></i> info@tailormade.systems
           </address>
-          <div class="social center-block">
+          <div id="social" class="center-block">
             <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
             <script type="IN/FollowCompany" data-id="3772541" data-counter="none"></script>
             <a href="https://github.com/Tailor-MadeSystems/web"><i class="fa fa-github"></i> Follow us on Github</a>
@@ -190,6 +174,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="assets/js/docs.min.js"></script>
+    <script src="assets/js/home.js"></script>
 
     <!-- Google Analystics -->
     <script>
