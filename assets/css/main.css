@@ -53,6 +53,11 @@ h5 {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
+#tm-navbar {
+  top: 0;
+  right: 0;
+  left: 0;
+}
 .navbar {
   margin-bottom: 0px;
 }
