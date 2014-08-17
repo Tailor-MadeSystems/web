@@ -28,6 +28,9 @@ a:hover {
   text-decoration: none;
   text-transform: none;
 }
+p span {
+  color: #999;
+}
 .divider {
   margin: 80px 0;
   border-top: none;
