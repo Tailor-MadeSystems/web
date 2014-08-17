@@ -18,6 +18,16 @@ h4,
 h5 {
   color: #0C374B;
 }
+a {
+  color: #8EA8BF;
+  text-decoration: none;
+  text-transform: none;
+}
+a:hover {
+  color: #FF991F;
+  text-decoration: none;
+  text-transform: none;
+}
 .divider {
   margin: 80px 0;
   border-top: none;
@@ -27,6 +37,10 @@ h5 {
 }
 .divider-small {
   margin: 40px 0;
+}
+.center-block-top {
+  display: block;
+  margin-top: 10%;
 }
 
 /* TM HEADER
@@ -75,10 +89,10 @@ h5 {
 .navbar-default .navbar-nav li a {
   color: #8EA8BF;
 }
-.navbar-default .navbar-nav .contact-link,
-.navbar-default .navbar-nav .contact-link a,
-.navbar-default .navbar-nav .contact-link a:hover,
-.navbar-default .navbar-nav .contact-link a:focus {
+.navbar-default .navbar-nav .active,
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:hover,
+.navbar-default .navbar-nav .active a:focus {
   color: #0C374B;
   background-color: #FF991F;
 }
@@ -91,7 +105,7 @@ h5 {
 /* CUSTOMIZE NAV TABS
 -------------------------------------------------- */
 .nav-tabs .active {
-  color: #0C374B;
+  background-color: #FF991F;
 }
 .nav-tabs li a {
   color: #8EA8BF;
@@ -191,14 +205,12 @@ h5 {
 #footer {
   color: #FFF;
   width: 100%;
+  height: 500px;
   background-color: #0C374B;
 }
 #footer > .container {
   padding-right: 15px;
   padding-left: 15px;
-}
-#footer > .container .row {
-  margin: 20px 0px;
 }
 #footer > .container .row p {
   margin: 0;
@@ -206,6 +218,10 @@ h5 {
 #footer > .container .row .col-xs-8,
 #footer > .container .row .col-xs-4 {
   padding-top: 10px;
+}
+#footer > .container .row ul {
+  list-style: none;
+  padding-left: 0px;
 }
 #contact,
 #contact p,
@@ -224,6 +240,14 @@ h5 {
   color: #8EA8BF;
   text-decoration: none;
   text-transform: none;
+}
+#contact ul {
+  margin-bottom: 0px;
+}
+#contact ul li{
+  display: inline;
+  list-style: none;
+  padding-right: 10px;
 }
 
 /* CSS OVERIDES
