@@ -100,9 +100,6 @@ a:hover {
 
 /* CUSTOMIZE NAV TABS
 -------------------------------------------------- */
-.nav-tabs .active {
-  background-color: #FF991F;
-}
 .nav-tabs .active a,
 .nav-tabs li a:hover,
 .tab-content .tab-pane .media .fa {
