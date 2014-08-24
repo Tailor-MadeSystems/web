@@ -1,6 +1,6 @@
 $( document ).ready( function () {
 	$( "#tm-navbar" ).affix( {
-		offset: { 
+		offset: {
             top: 495
         }
 	});

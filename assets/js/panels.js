@@ -16,8 +16,8 @@ $( document ).ready( function () {
 		for ( x = 0; x < linkTabs.length; x++ ) {
 			if ( linkTabs[x].children[0].getAttribute( "href" ) == "#" + id.getAttribute( "id" ) ) {
 				linkTabs[x].scrollIntoView();
-				window.scrollBy( 0, -document.getElementsByClassName( "navbar" )[0].scrollHeight )
+				window.scrollBy( 0, -document.getElementsByClassName( "navbar" )[0].scrollHeight );
 			}
-		}		
+		}
 	});
 });
