@@ -1,4 +1,4 @@
-$( document ).ready( function () {
+$( document ).ready( function ( ) {
 	$( ".panel-body > a" ).click( function( e ) {
 		e.preventDefault( );
 		var id = document.getElementById( $( this ).attr( "href" ).substring( 1 ) ),
@@ -9,7 +9,7 @@ $( document ).ready( function () {
 			if ( idClasses[i] == "active" ) {
 				break;
 			} else if ( i == idClasses.length - 1 ) {
-				$( '#myTab a[href="#' + id.getAttribute( "id" ) + '"]' ).tab( 'show' );
+				$( '#myTab a[href="#' + id.getAttribute( "id" ) + '"]' ).tab( "show" );
 			}
 		}
 
