@@ -52,13 +52,17 @@ a:hover {
   background: rgba(12, 55, 75, 0.4);
   font-size: 24px;
   height: 50px;
-  padding: 8px 10px;
+  padding: 0 10px;
   position: fixed;
   z-index: 1001;
 }
 .tm-brand a {
   color: #FFF;
   text-decoration: none;
+}
+
+.brand-logo {
+  float: left;
 }
 
 /* CUSTOMIZE THE NAVBAR
