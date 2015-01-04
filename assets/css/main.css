@@ -62,6 +62,8 @@ a:hover {
 }
 
 .brand-logo {
+  height: 50px;
+  width: 236px;
   float: left;
 }
 
