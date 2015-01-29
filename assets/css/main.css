@@ -38,6 +38,19 @@ a:hover {
 .divider-small {
   margin: 40px 0;
 }
+.nav-offset{
+  margin: 50px 0;
+}
+.btn-orange {
+  color: #fff;
+  background-color: #FF991F;
+  border-color: #FFA538;
+}
+.btn-orange:hover {
+  color: #fff;
+  background-color: #E58A1C;
+  border-color: #FFA538;
+}
 
 /* TM HEADER
 -------------------------------------------------- */
@@ -187,7 +200,7 @@ a:hover {
   padding: 60px 0;
 }
 .featurette-small {
-  padding: 40px 0;
+  padding: 35px 0;
 }
 .featurette-micro {
   padding: 10px 0;
@@ -197,6 +210,37 @@ a:hover {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+/* CONTACT
+-------------------------------------------------- */
+.contact {
+  margin: 50px 0 35px 0;
+  padding: 35px 0 0 0;
+  text-align: center;
+}
+
+.contact .fa {
+  color: #333;
+  font-size: 100px;
+}
+
+.contact-featurette,
+.contact-form {
+  background-color:  #eee;
+}
+
+.contact-featurette {
+  padding: 35px 0 35px 0;
+  text-align: center;
+}
+
+.contact-form {
+  padding: 0 0 35px 0;
+}
+
+.contact-form .radio {
+  padding-top: 0;
 }
 
 /* FOOTER
@@ -220,6 +264,9 @@ a:hover {
   padding-right: 15px;
   padding-left: 15px;
 }
+#footer > .container .row {
+  padding: 50px 0;
+}
 #footer > .container .row p {
   margin: 0;
 }
@@ -237,16 +284,16 @@ a:hover {
   height: 1px;
   width: 60px;
 }
-#contact,
-#contact p,
-#contact h1,
-#contact h2,
-#contact h3,
-#contact h4,
-#contact h5 {
+#connect,
+#connect p,
+#connect h1,
+#connect h2,
+#connect h3,
+#connect h4,
+#connect h5 {
   color: #FFF;
 }
-#contact img {
+#connect img {
   margin: 8px 0;
 }
 
